@@ -44,7 +44,6 @@
     margin-right: 350px;
     margin-left: 350px;
     margin-top: 80px;
-    
 }
 
 .structure_img_male_2 {
@@ -68,4 +67,12 @@
     margin-right: 350px;
     margin-left: 350px;
     margin-top: 80px;
+}
+
+#img_female {
+    transition: all 1s ease;
+}
+
+#img_male {
+    transition: all 1s ease;
 }
