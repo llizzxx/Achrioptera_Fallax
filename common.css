@@ -1,0 +1,30 @@
+.screen {
+    height: 100%;
+}
+
+.dark_gray_screen {
+    height: 100%;
+    background-color: #0E0E0E;
+}
+
+.gray_screen {
+    height: 100%;
+    background-color: #8a8a8a;
+}
+
+.light_gray_screen {
+    height: 100%;
+    background-color: #d9d9d9;
+}
+
+html {
+    height: 100%;
+    user-select: none;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Rubik Mono One', sans-serif;
+    height: 100%;
+}
+

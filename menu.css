@@ -1,0 +1,118 @@
+.menu {
+    background-color: rgba(21, 21, 21, 0.493);
+    height: 120px;
+    font-size: 13pt;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #00DDF6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.menu img {
+    height: 90px;
+    width: 90px;
+    margin-left: 10px;
+    object-fit: contain;
+}
+
+.menu_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_items a {
+    color: #00DDF6;
+    text-decoration: none;
+    margin: 0px 25px;
+}
+
+.menu_icon {
+    height: 90px;
+    width: 90px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    
+}
+
+#menu_icon {
+    height: 39px;
+    width: 70%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+#menu_icon span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: #00DDF6;
+    border-radius: 3px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+  
+  #menu_icon span:nth-child(1) {
+    top: 0px;
+  }
+  
+  #menu_icon span:nth-child(2), #menu_icon span:nth-child(3) {
+    top: 18px;
+  }
+  
+  #menu_icon span:nth-child(4) {
+    top: 36px;
+  }
+  
+  #menu_icon.open span:nth-child(1), #menu_icon.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+  }
+  
+  #menu_icon.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  #menu_icon.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+.hide {
+  display: none;
+}
+
+.menu_logo {
+  margin-right: auto;
+}
+
+.background_transparency {
+  background-color: rgba(0, 0, 0, 0);
+}

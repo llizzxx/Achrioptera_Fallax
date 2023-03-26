@@ -1,0 +1,77 @@
+.first_screen {
+    background-image: url('picture/Sm_male_side_view_color.png'), url('picture/Ellipse_big_orange.png');
+    background-position: 80% 100%, 50% 80%;
+    background-repeat: no-repeat;
+    background-size: 60%, 75%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_screen_text {
+    font-size: 60pt;
+    color: #00DDF6;
+    position: relative;
+    bottom: 50px;
+    right: 250px;
+}
+
+.third_screen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+
+    color: #0E0E0E;
+}
+
+.third_screen_element {
+    padding: 0 20px;
+}
+
+.classification_label {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+
+    font-size: 39pt;
+
+    margin-left: 15%;
+}
+
+.classification_img {
+    height: 100%;
+}
+
+.classification_text > div > div:nth-child(1) {
+    font-family: 'Rubik', sans-serif;
+    font-size: 13pt;
+
+    margin-top: 13px;
+}
+
+.classification_text > div > div:nth-child(2) {
+    font-size: 17pt;
+}
+
+.fourth_screen{
+    background-image: url('picture/Eucalyptus_gm_color.png');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth_screen_text {
+    font-size: 60pt;
+    color: #0E0E0E;
+    text-align: center;
+}

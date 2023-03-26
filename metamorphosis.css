@@ -1,0 +1,17 @@
+.first_screen {
+    background-image: url('picture/Sm_male&female_gm_color.png');
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_screen_text {
+    font-size: 60pt;
+    color: #0E0E0E;
+}

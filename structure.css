@@ -1,0 +1,71 @@
+.first_screen {
+    background-image: url('picture/Sm_on_the_hill_gm_color.png');
+    background-position: 50% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_screen_text {
+    font-size: 60pt;
+    color: #0E0E0E;
+    text-align: center;
+}
+
+.second_screen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.structure_img_female_1 {
+    height: 75%;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.structure_img_male_1 {
+    height: 75%;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.structure_img_female_2 {
+    height: 75%;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 80px;
+    
+}
+
+.structure_img_male_2 {
+    height: 75%;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 80px;
+    opacity: 0%;
+}
+
+.structure_img_female_3 {
+    height: 75%;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 80px;
+    opacity: 0%;
+}
+
+.structure_img_male_3 {
+    height: 75%;
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 80px;
+}

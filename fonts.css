@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Rubik Mono One';
+    src: url('fonts/RubikMonoOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('fonts/Rubik-Light.ttf') format('truetype');
+}
