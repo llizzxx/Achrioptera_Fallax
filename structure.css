@@ -139,7 +139,7 @@
 }
 
 .third_screen {
-    background-image: url('picture/Sm_background_gm_color.png');
+    background-image: url('picture/Sm_background_gm_bw.png'); /* не забыть поменять потом */
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -153,7 +153,14 @@
 
 .protection_container {
     height: 70%;
-    /* position: relative; */
+    aspect-ratio: 1664 / 2620; /* Задает соотношение сторон */
+    position: relative;
+    color: #5C5C5C;
+    font-size: 16pt;
+    
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
 
     display: flex;
     flex-direction: row;
@@ -162,16 +169,38 @@
     align-items: center;
 }
 
-.protection_img_color {
-    height: 100%;
+.protection_container_1 {
+    background-image: url('picture/Sm_male_gm_color.png');
+}
+
+.protection_container_2 {
+    background-image: url('picture/Sm_male_gm_bw.png');
+    transform: rotate(45deg);
+    left: -20%;
+    top: -5%;
+}
+
+.protection_container_3 {
+    background-image: url('picture/Sm_male_gm_bw.png');
+    transform: rotate(45deg);
+    left: 15%;
+    top: 5%;
+}
+
+.protection_container_4 {
+    background-image: url('picture/Sm_male_gm_bw.png');
+    transform: rotate(45deg);
+    left: -20%;
+    top: -5%;
 }
 
 .little_white_color {
     position: absolute;
+    transition: all 1s ease;
 }
 
 .little_white_color_1 {
-    height: 4%; /* пересчитать для relative */
+    height: 6%; 
 }
 
 .little_white_color_1_position {
@@ -182,23 +211,67 @@
 }
 
 .little_white_color_2 {
-    height: 6%; /* пересчитать для relative */
+    height: 8%; 
 }
 
 .little_white_color_2_position {
     height: 100%;
     position: relative;
     top: -100%;
-    left: -60%;
+    left: -80%;
 }
 
 .little_white_color_3 {
-    height: 4%; /* пересчитать для relative */
+    height: 6%; 
 }
 
 .little_white_color_3_position {
     height: 100%;
     position: relative;
     top: 160%;
-    left: 250%;
+    left: 225%;
+}
+
+.little_white_color_hide {
+    opacity: 0%;
+}
+
+.protection_info_1 {
+    position: absolute;
+    height: 100%;
+    transform: rotate(-45deg);
+}
+
+.protection_info_1 > img:nth-of-type(1) {
+    height: 55%;
+    position: relative;
+    left: 35%;
+    top: 20%;
+}
+
+.protection_info_1 > img:nth-of-type(2) {
+    height: 8%;
+    position: relative;
+    left: 98%;
+    top: 1%;
+}
+
+.protection_info_1 > p:nth-of-type(1) {
+    margin: 0;
+    position: relative;
+    width: 80%;
+    left: 110%;
+    top: 5%;
+}
+
+/* .protection_info_2 {
+
+}
+
+.protection_info_3 {
+
+} */
+
+.protection_info_hide {
+
 }
