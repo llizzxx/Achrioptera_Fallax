@@ -103,19 +103,6 @@
     transition: all 1s ease;
 }
 
-.third_screen {
-    background-image: url('picture/Sm_backgroung.png');
-    background-position: 50% 70%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
 .second_screen_text {
     font-size: 14pt;
     width: 560px;
@@ -149,4 +136,69 @@
     visibility: hidden;
     opacity: 0;
     transition: visibility 0.1s ease 0.5s, opacity 0.5s ease; /* Исчезновение */
+}
+
+.third_screen {
+    background-image: url('picture/Sm_background_gm_color.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.protection_container {
+    height: 70%;
+    /* position: relative; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.protection_img_color {
+    height: 100%;
+}
+
+.little_white_color {
+    position: absolute;
+}
+
+.little_white_color_1 {
+    height: 4%; /* пересчитать для relative */
+}
+
+.little_white_color_1_position {
+    height: 100%;
+    position: relative;
+    top: -500%;
+    left: 40%;
+}
+
+.little_white_color_2 {
+    height: 6%; /* пересчитать для relative */
+}
+
+.little_white_color_2_position {
+    height: 100%;
+    position: relative;
+    top: -100%;
+    left: -60%;
+}
+
+.little_white_color_3 {
+    height: 4%; /* пересчитать для relative */
+}
+
+.little_white_color_3_position {
+    height: 100%;
+    position: relative;
+    top: 160%;
+    left: 250%;
 }
