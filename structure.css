@@ -139,7 +139,6 @@
 }
 
 .third_screen {
-    background-image: url('picture/Sm_background_gm_bw.png'); /* не забыть поменять потом */
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -149,6 +148,16 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+
+    transition: all 1s ease;
+}
+
+.third_screen_state_1 {
+    background-image: url('picture/Sm_background_gm_color.png');
+}
+
+.third_screen_state_234 {
+    background-image: url('picture/Sm_background_gm_bw.png');
 }
 
 .protection_container {
@@ -167,6 +176,8 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+
+    transition: all 1s ease;
 }
 
 .protection_container_1 {
@@ -264,14 +275,64 @@
     top: 5%;
 }
 
-/* .protection_info_2 {
+.protection_info_2 {
+    position: absolute;
+    height: 100%;
+    transform: rotate(-45deg);
+}
 
+.protection_info_2 > img:nth-of-type(1) {
+    height: 55%;
+    position: relative;
+    left: 20%;
+    top: 15%;
+}
+
+.protection_info_2 > img:nth-of-type(2) {
+    height: 8%;
+    position: relative;
+    left: -83%;
+    top: -30%;
+}
+
+.protection_info_2 > p:nth-of-type(1) {
+    margin: 0;
+    position: relative;
+    width: 80%;
+    left: -83%;
+    top: -63%;
 }
 
 .protection_info_3 {
+    position: absolute;
+    height: 100%;
+    transform: rotate(-45deg);
+}
 
-} */
+.protection_info_3 > img:nth-of-type(1) {
+    height: 55%;
+    position: relative;
+    left: 35%;
+    top: 20%;
+}
+
+.protection_info_3 > img:nth-of-type(2) {
+    height: 8%;
+    position: relative;
+    left: 98%;
+    top: 1%;
+}
+
+.protection_info_3 > p:nth-of-type(1) {
+    margin: 0;
+    position: relative;
+    width: 80%;
+    left: 110%;
+    top: 5%;
+}
 
 .protection_info_hide {
-
+    visibility: hidden;
+    opacity: 0;
+    transform: rotate(0);
 }

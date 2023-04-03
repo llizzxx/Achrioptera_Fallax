@@ -15,3 +15,151 @@
     font-size: 60pt;
     color: #0E0E0E;
 }
+
+.second_screen {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.third_screen {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth_screen {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.metamorphosis_stage_container {
+    position: relative;
+    color: #5C5C5C;
+    font-size: 16pt;
+    height: 70%;
+    
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+.metamorphosis_stage_container_1 {
+    background-image: url('picture/Ellipse_1_metamorphosis.png');
+    background-size: 23%;
+    left: -15%;
+    top: -5%;
+}
+
+.metamorphosis_stage_container_1 > h1 {
+    position: relative;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: normal;
+    margin: 0%;
+    top: 15%;
+    left: 25%;
+}
+
+.metamorphosis_stage_container_1 > img {
+    position: relative;
+    height: 45%;
+    left: 30%;
+    top: 17%;
+
+}
+
+.metamorphosis_stage_container_1 > p {
+    margin: 0;
+    position: relative;
+    width: 55%;
+    left: 110%;
+    top: 5%;
+    left: 70%;
+}
+
+
+
+
+
+.metamorphosis_stage_container_2 {
+    background-image: url('picture/Ellipse_2_metamorphosis.png');
+    background-size: 20%;
+}
+
+.metamorphosis_stage_container_2 > h1 {
+    position: relative;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: normal;
+    margin: 0%;
+}
+
+.metamorphosis_stage_container_2 > img {
+    position: relative;
+    height: 50%;
+}
+
+.metamorphosis_stage_container_2 > p {
+    margin: 0;
+    position: relative;
+    width: 80%;
+    left: 110%;
+    top: 5%;
+    left: -20%;
+}
+
+
+
+
+
+
+.metamorphosis_stage_container_3 {
+    background-image: url('picture/Ellipse_3_metamorphosis.png');
+    background-size: 40%;
+}
+
+.metamorphosis_stage_container_3 > h1 {
+    position: relative;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: normal;
+    margin: 0%;
+}
+
+.metamorphosis_stage_container_3 > img {
+    position: relative;
+    height: 100%;
+}
+
+.metamorphosis_stage_container_3 > p {
+    margin: 0;
+    position: relative;
+    width: 80%;
+    left: 110%;
+    top: 5%;
+    left: -20%;
+}
