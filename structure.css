@@ -167,9 +167,9 @@
     color: #5C5C5C;
     font-size: 16pt;
     
-    background-position: 50% 50%;
+    /* background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; */
 
     display: flex;
     flex-direction: row;
@@ -180,77 +180,97 @@
     transition: all 1s ease;
 }
 
-.protection_container_1 {
-    background-image: url('picture/Sm_male_gm_color.png');
-}
+.protection_container_background {
+    height: 100%;
+    width: 100%;
 
-.protection_container_2 {
-    background-image: url('picture/Sm_male_gm_bw.png');
-    transform: rotate(45deg);
-    left: -20%;
-    top: -5%;
-}
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
 
-.protection_container_3 {
-    background-image: url('picture/Sm_male_gm_bw.png');
-    transform: rotate(45deg);
-    left: 15%;
-    top: 5%;
-}
-
-.protection_container_4 {
-    background-image: url('picture/Sm_male_gm_bw.png');
-    transform: rotate(45deg);
-    left: -20%;
-    top: -5%;
-}
-
-.little_white_color {
-    position: absolute;
+    position: relative;
     transition: all 1s ease;
 }
 
-.little_white_color_1 {
+.protection_container_background_1 {
+    background-image: url('picture/Sm_male_gm_color.png');
+}
+
+.protection_container_background_2 {
+    background-image: url('picture/Sm_male_gm_bw.png');
+    transform: rotate(45deg) translate(-45%, 25%);
+}
+
+.protection_container_background_3 {
+    background-image: url('picture/Sm_male_gm_bw.png');
+    transform: rotate(45deg) translate(40%, -5%);
+}
+
+.protection_container_background_4 {
+    background-image: url('picture/Sm_male_gm_bw.png');
+    transform: rotate(45deg) translate(-45%, 25%);
+}
+
+.little_white_circle {
+    position: absolute;
+    transition: all 1s ease 1s;
+    cursor: pointer;
+}
+
+.little_white_circle_1 {
     height: 6%; 
 }
 
-.little_white_color_1_position {
+.little_white_circle_1_position {
     height: 100%;
     position: relative;
     top: -500%;
     left: 40%;
 }
 
-.little_white_color_2 {
+.little_white_circle_2 {
     height: 8%; 
 }
 
-.little_white_color_2_position {
+.little_white_circle_2_position {
     height: 100%;
     position: relative;
     top: -100%;
     left: -80%;
 }
 
-.little_white_color_3 {
+.little_white_circle_3 {
     height: 6%; 
 }
 
-.little_white_color_3_position {
+.little_white_circle_3_position {
     height: 100%;
     position: relative;
     top: 160%;
     left: 225%;
 }
 
-.little_white_color_hide {
+.little_white_circle_hide {
     opacity: 0%;
+    transition: all 0.3s ease;
+}
+
+.protection_info {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease 0.3s;
+}
+
+.protection_info_hide {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
 }
 
 .protection_info_1 {
-    position: absolute;
-    height: 100%;
-    transform: rotate(-45deg);
+    left: -70%;
+    top: -5%;
 }
 
 .protection_info_1 > img:nth-of-type(1) {
@@ -263,50 +283,46 @@
 .protection_info_1 > img:nth-of-type(2) {
     height: 8%;
     position: relative;
-    left: 98%;
-    top: 1%;
+    left: 120%;
+    top: 10%;
 }
 
 .protection_info_1 > p:nth-of-type(1) {
     margin: 0;
     position: relative;
-    width: 80%;
-    left: 110%;
-    top: 5%;
+    width: 135%;
+    left: 135%;
+    top: 15%;
 }
 
 .protection_info_2 {
-    position: absolute;
-    height: 100%;
-    transform: rotate(-45deg);
+    left: 40%;
+    top: 30%;
 }
 
 .protection_info_2 > img:nth-of-type(1) {
     height: 55%;
     position: relative;
-    left: 20%;
-    top: 15%;
 }
 
 .protection_info_2 > img:nth-of-type(2) {
     height: 8%;
     position: relative;
-    left: -83%;
-    top: -30%;
+    left: -140%;
+    top: -50%;
 }
 
 .protection_info_2 > p:nth-of-type(1) {
     margin: 0;
     position: relative;
-    width: 80%;
-    left: -83%;
-    top: -63%;
+    width: 120%;
+    left: -140%;
+    top: -83%;
 }
 
 .protection_info_3 {
-    position: absolute;
-    height: 100%;
-    transform: rotate(-45deg);
+    left: -70%;
+    top: -5%;
 }
 
 .protection_info_3 > img:nth-of-type(1) {
@@ -319,20 +335,14 @@
 .protection_info_3 > img:nth-of-type(2) {
     height: 8%;
     position: relative;
-    left: 98%;
-    top: 1%;
+    left: 120%;
+    top: 10%;
 }
 
 .protection_info_3 > p:nth-of-type(1) {
     margin: 0;
     position: relative;
-    width: 80%;
-    left: 110%;
-    top: 5%;
-}
-
-.protection_info_hide {
-    visibility: hidden;
-    opacity: 0;
-    transform: rotate(0);
+    width: 135%;
+    left: 135%;
+    top: 15%;
 }
