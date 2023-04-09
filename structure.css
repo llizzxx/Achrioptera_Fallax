@@ -166,10 +166,6 @@
     position: relative;
     color: #5C5C5C;
     font-size: 16pt;
-    
-    /* background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: contain; */
 
     display: flex;
     flex-direction: row;
