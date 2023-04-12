@@ -1,0 +1,38 @@
+footer {
+    background-color: #262626;
+    color: #67CFDF;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cool_rotated_stickyman_on_establishment {
+    position: relative;
+}
+
+.author {
+    font-size: 16pt;
+}
+
+.establishment {
+    font-size: 28pt;
+}
+
+.cool_rotated_stickyman {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+
+    width: 60%;
+
+    transform-origin: center;
+    transition: transform 1s;
+}
+
+.cool_rotated_stickyman:hover {
+	transform: rotate(1turn);
+}

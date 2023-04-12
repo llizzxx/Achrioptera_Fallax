@@ -7,6 +7,11 @@
     background-color: #0E0E0E;
 }
 
+.not_so_dark_gray_screen {
+    height: 100%;
+    background-color: #262626;
+}
+
 .gray_screen {
     height: 100%;
     background-color: #8a8a8a;
@@ -37,9 +42,4 @@ body {
     margin: 0px;
     font-family: 'Rubik Mono One', sans-serif;
     height: 100%; 
-}
-
-.footer {
-    height: 200px;
-    background-color: #262626
 }
