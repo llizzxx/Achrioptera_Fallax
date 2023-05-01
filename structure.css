@@ -56,6 +56,7 @@
     margin-right: 50px;
     margin-left: 50px;
     margin-top: 80px;
+    cursor: pointer;
 }
 
 .structure_img_female_1:hover {
@@ -67,6 +68,7 @@
     margin-right: 50px;
     margin-left: 50px;
     margin-top: 80px;
+    cursor: pointer;
 }
 
 .structure_img_male_1:hover {
@@ -285,62 +287,47 @@
 
 .little_white_circle {
     position: absolute;
-    transition: all 1s ease 1s;
+    transition: all 1s ease, opacity 1s ease 0.7s;
     cursor: pointer;
 }
 
 .little_white_circle_1 {
-    height: 6%; 
+    height: 7%;
+    top: 22%;
+    left: 52%;
+    transform: translate(-50%, -50%);
 }
 
-.little_white_circle_1_position {
-    height: 100%;
-    position: relative;
-    top: -500%;
-    left: 40%;
-}
-
-.little_white_circle_1_position:hover {
-    transition: all 1s ease;
-    height: 130%;
+.little_white_circle_1:hover {
+    height: 10%;
 }
 
 .little_white_circle_2 {
-    height: 8%; 
+    height: 9%;
+    top: 40%;
+    left: 42%;
+    transform: translate(-50%, -50%);
 }
 
-.little_white_circle_2_position {
-    height: 100%;
-    position: relative;
-    top: -100%;
-    left: -80%;
-}
-
-.little_white_circle_2_position:hover {
-    transition: all 1s ease;
-    height: 130%;
+.little_white_circle_2:hover {
+    height: 12%;
 }
 
 .little_white_circle_3 {
-    height: 6%; 
+    height: 7%;
+    top: 58%;
+    left: 65%;
+    transform: translate(-50%, -50%);
 }
 
-.little_white_circle_3_position {
-    height: 100%;
-    position: relative;
-    top: 160%;
-    left: 225%;
-    transition: all 1s ease;
-}
-
-.little_white_circle_3_position:hover {
-    transition: all 1s ease;
-    height: 130%;
+.little_white_circle_3:hover {
+    height: 10%;
 }
 
 .little_white_circle_hide {
     opacity: 0%;
-    transition: all 0.3s ease;
+    transition: opacity 0.3s ease;
+    cursor: default;
 }
 
 .protection_info {

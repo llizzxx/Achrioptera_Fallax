@@ -69,19 +69,19 @@ function set_state_3() {
 
 
 $(document).ready(function() {
-    $('.little_white_circle_1_position').click(function(event) {
+    $('.little_white_circle_1').click(function(event) {
         if(is_state_1_third_screen()) {
             set_state_2_third_screen()
             event.stopPropagation()
         }
     })
-    $('.little_white_circle_2_position').click(function(event) {
+    $('.little_white_circle_2').click(function(event) {
         if(is_state_1_third_screen()) {
             set_state_3_third_screen()
             event.stopPropagation()
         }
     })
-    $('.little_white_circle_3_position').click(function(event) {
+    $('.little_white_circle_3').click(function(event) {
         if(is_state_1_third_screen()) {
             set_state_4_third_screen()
             event.stopPropagation()
