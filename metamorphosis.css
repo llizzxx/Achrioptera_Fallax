@@ -45,7 +45,8 @@
 }
 
 .metamorphosis_stage_container p {
-    font-size: 14pt;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 24pt;
 }
 
 .metamorphosis_stage_info {
@@ -109,7 +110,7 @@
 }
 
 .metamorphosis_stage_container_2 > .metamorphosis_stage_info > img:nth-of-type(1) {
-    margin: 0 140px;
+    margin: 0px 140px;
     height: 95%;
 }
 
@@ -141,10 +142,28 @@
 }
 
 .metamorphosis_stage_container_3 > .metamorphosis_stage_info > img:nth-of-type(2) {
-    margin: 10px 140px;
+    margin: 0px 140px;
     height: 95%;
 }
 
 .metamorphosis_stage_container_3 > .metamorphosis_stage_info > p {
     width: 30%;
+}
+
+.metamorphosis_label_1 {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 24pt;
+    color: #979797;
+}
+
+.metamorphosis_label_2 {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 24pt;
+    color: #979797;
+}
+
+.metamorphosis_label_3 {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 24pt;
+    color: #979797;
 }

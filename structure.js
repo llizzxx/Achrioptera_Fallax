@@ -111,8 +111,8 @@ function is_state_4_third_screen() {
 }
 
 function set_state_1_third_screen() {
-    $('.third_screen').removeClass('third_screen_state_234 white_screen')
-    $('.third_screen').addClass('third_screen_state_1 light_blue_screen')
+    $('.third_screen').removeClass('white_screen protection_screen_2 protection_screen_3 protection_screen_4')
+    $('.third_screen').addClass('light_blue_screen')
     $('.little_white_circle').removeClass('little_white_circle_hide')
     $('.protection_info_1').addClass('protection_info_hide')
     $('.protection_info_2').addClass('protection_info_hide')
@@ -122,8 +122,8 @@ function set_state_1_third_screen() {
 }
 
 function set_state_2_third_screen() {
-    $('.third_screen').removeClass('third_screen_state_1 light_blue_screen')
-    $('.third_screen').addClass('third_screen_state_234 white_screen')
+    $('.third_screen').removeClass('light_blue_screen protection_screen_3 protection_screen_4')
+    $('.third_screen').addClass('white_screen protection_screen_2')
     $('.little_white_circle').addClass('little_white_circle_hide')
     $('.protection_info_1').removeClass('protection_info_hide')
     $('.protection_container_background').addClass('protection_container_background_2')
@@ -131,8 +131,8 @@ function set_state_2_third_screen() {
 }
 
 function set_state_3_third_screen() {
-    $('.third_screen').removeClass('third_screen_state_1 light_blue_screen')
-    $('.third_screen').addClass('third_screen_state_234 white_screen')
+    $('.third_screen').removeClass('light_blue_screen protection_screen_2 protection_screen_4')
+    $('.third_screen').addClass('white_screen protection_screen_3')
     $('.little_white_circle').addClass('little_white_circle_hide')
     $('.protection_info_2').removeClass('protection_info_hide')
     $('.protection_container_background').addClass('protection_container_background_3')
@@ -140,8 +140,8 @@ function set_state_3_third_screen() {
 }
 
 function set_state_4_third_screen() {
-    $('.third_screen').removeClass('third_screen_state_1 light_blue_screen')
-    $('.third_screen').addClass('third_screen_state_234 white_screen')
+    $('.third_screen').removeClass('light_blue_screen protection_screen_2 protection_screen_3')
+    $('.third_screen').addClass('white_screen protection_screen_4')
     $('.little_white_circle').addClass('little_white_circle_hide')
     $('.protection_info_3').removeClass('protection_info_hide')
     $('.protection_container_background').addClass('protection_container_background_4')

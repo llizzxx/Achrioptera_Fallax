@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 
     color: #0E0E0E;
@@ -52,14 +52,15 @@
 }
 
 .classification_text > div > div:nth-child(1) {
-    font-family: 'Rubik', sans-serif;
-    font-size: 13pt;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 14pt;
 
     margin-top: 13px;
 }
 
 .classification_text > div > div:nth-child(2) {
-    font-size: 17pt;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 24pt;
 }
 
 .third_screen {
@@ -81,7 +82,7 @@
 }
 
 .third_screen_label {
-    background-image: linear-gradient(180deg, #8a8a8a 20%, #E8E8E8 72%);
+    background-image: linear-gradient(180deg, #8a8a8a 25%, #d6d6d6 80%);
     background-attachment: fixed;
     background-clip: text;
     -webkit-background-clip: text;
@@ -108,7 +109,7 @@
     width: fit-content;
 
     font-family: 'Poiret One', sans-serif;
-    font-size: 32pt;
+    font-size: 24pt;
 }
 
 .third_screen_container {

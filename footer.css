@@ -6,7 +6,7 @@ footer {
     flex-direction: row;
     flex-wrap: nowrap;
 
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -15,7 +15,8 @@ footer {
 }
 
 .author {
-    font-size: 16pt;
+    font-size: 10pt;
+    margin-left: 25px;
 }
 
 .establishment {
