@@ -10,10 +10,7 @@ footer {
     align-items: center;
 }
 
-.cool_rotated_stickyman_on_establishment {
-    position: relative;
-}
-
+/* АВТОР И УЧЕБНОЕ ЗАВЕДЕНИЕ */
 .author {
     font-size: 10pt;
     margin-left: 25px;
@@ -21,6 +18,11 @@ footer {
 
 .establishment {
     font-size: 28pt;
+}
+
+/* ПАЛОЧНИК */
+.cool_rotated_stickyman_on_establishment {
+    position: relative;
 }
 
 .cool_rotated_stickyman {

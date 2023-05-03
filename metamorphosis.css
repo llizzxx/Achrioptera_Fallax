@@ -1,3 +1,5 @@
+
+/* ПЕРВЫЙ ЭКРАН */
 .first_screen {
     background-image: url('picture/Sm_male&female_gm_color.png');
     background-position: 50% 65%;
@@ -61,7 +63,7 @@
     width: 100%;
 }
 
-/* ПЕРВЫЙ ЭКРАН */
+/* ПЕРВАЯ СТАДИЯ */
 
 .metamorphosis_stage_container_1 {
     margin-top: 300px;
@@ -90,7 +92,7 @@
     margin-bottom: 200px;
 }
 
-/* ВТОРОЙ ЭКРАН */
+/* ВТОРАЯ СТАДИЯ */
 
 .metamorphosis_stage_container_2 {
     margin-top: 350px;
@@ -119,7 +121,7 @@
     margin-bottom: 400px;
 }
 
-/* ТРЕТИЙ ЭКРАН */
+/* ТРЕТЬЯ СТАДИЯ*/
 
 .metamorphosis_stage_container_3 {
     margin-top: 80px;

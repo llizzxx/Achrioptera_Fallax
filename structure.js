@@ -1,3 +1,5 @@
+
+// ВТОРОЙ ЭКРАН СТРОЕНИЕ
 $(document).ready(function() {
     $('#img_female').click(function(event) {
         if(is_state_1()) {
@@ -63,11 +65,7 @@ function set_state_3() {
     $('.structure_text_male').removeClass('structure_text_hide')
 }
 
-
-
-
-
-
+// ТРЕТИЙ ЭКРАН МЕХАНИЗМЫ ЗАЩИТЫ
 $(document).ready(function() {
     $('.little_white_circle_1').click(function(event) {
         if(is_state_1_third_screen()) {

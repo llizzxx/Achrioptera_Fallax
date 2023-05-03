@@ -1,3 +1,5 @@
+
+/* ПЕРВЫЙ ЭКРАН */
 .first_screen {
     background-image: url('picture/Sm_on_the_hill_gm_color.png');
     background-position: 50% 75%;
@@ -17,6 +19,7 @@
     text-align: center;
 }
 
+/* ВТОРОЙ ЭКРАН */
 .second_screen {
     display: flex;
     flex-direction: row;
@@ -192,6 +195,7 @@
     left: 870px;
 }
 
+/* ТРЕТИЙ ЭКРАН */
 .third_screen {
     background-position: 50% 50%;
     background-repeat: no-repeat;

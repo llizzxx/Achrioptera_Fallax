@@ -1,3 +1,5 @@
+
+/* ПЕРВЫЙ ЭКРАН */
 .first_screen {
     background-image: url('picture/Sm_male_side_view_color.png'), url('picture/Ellipse_big_orange.png');
     background-position: 80% 100%, 50% 80%;
@@ -19,6 +21,7 @@
     right: 250px;
 }
 
+/* ВТОРОЙ ЭКРАН */
 .second_screen {
     background-image: url('picture/Gradient_top.png');
     background-position: 50% 0%;
@@ -63,6 +66,7 @@
     font-size: 24pt;
 }
 
+/* ТРЕТИЙ ЭКРАН */
 .third_screen {
     display: flex;
     flex-direction: column;
@@ -122,6 +126,7 @@
     overflow: hidden;
 }
 
+/* ЧЕТВЕРТЫЙ ЭКРАН */
 .fourth_screen {
     background-image: url('picture/Eucalyptus_gm_color.png');
     background-position: 50% 100%;
