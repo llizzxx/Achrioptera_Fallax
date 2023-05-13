@@ -3,7 +3,7 @@ export function get_current_screen() {
     return Math.ceil(document.documentElement.scrollTop / screen_height);
 }
 
-function go_to_screen(screen) {
+export function go_to_screen(screen) {
     const screen_height = window.innerHeight
     document.documentElement.scrollTop = screen_height * screen
 }

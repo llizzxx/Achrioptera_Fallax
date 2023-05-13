@@ -26,14 +26,18 @@
   align-items: center;
 }
 
-.menu_items a:hover {
-  color: coral;
-}
-
-.menu_items a {
+.menu_item {
   color: #00DDF6;
   text-decoration: none;
   margin: 0px 25px;
+}
+
+.menu_item_active {
+  color: coral;
+}
+
+.menu_item:hover {
+  color: rgb(255, 181, 154);
 }
 
 .menu_icon {
