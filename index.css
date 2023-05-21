@@ -23,11 +23,6 @@
 
 /* ВТОРОЙ ЭКРАН */
 .second_screen {
-    background-image: url('picture/Gradient_top.png');
-    background-position: 50% 0%;
-    background-repeat: no-repeat;
-    background-size: contain;
-
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

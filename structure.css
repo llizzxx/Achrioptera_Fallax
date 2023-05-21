@@ -207,36 +207,6 @@
     transition: all 1s ease;
 }
 
-.protection_screen_2 {
-    background-image: url('picture/Ellipse_structure_1_screen.png');
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position-x: calc(50% - 200px);
-    background-position-y: calc(50% - 70px);
-
-    transition: all 2s ease;
-}
-
-.protection_screen_3 {
-    background-image: url('picture/Ellipse_structure_2_screen.png');
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position-x: calc(50% - 100px);
-    background-position-y: calc(50% + 25px);
-
-    transition: all 2s ease;
-}
-
-.protection_screen_4 {
-    background-image: url('picture/Ellipse_structure_3_screen.png');
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position-x: calc(50% - 150px);
-    background-position-y: calc(50% - 113px);
-
-    transition: all 2s ease;
-}
-
 .protection_container_background {
     height: 100%;
     width: 100%;

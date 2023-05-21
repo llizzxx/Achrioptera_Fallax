@@ -1,6 +1,38 @@
 footer {
     background-color: #262626;
-    color: #67CFDF;
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > div {
+    margin: 0 150px;
+}
+
+/* ЛОГО С ПОДПИСЬЮ */
+.logo_footer {
+    display: inline-block;
+
+    height: 60px;
+    aspect-ratio: 383/87;
+
+    background-image: url(picture/logo_full.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo_footer:hover {
+    background-image: url(picture/logo_full_color.png);
+}
+
+/* УЧЕБНОЕ ЗАВЕДЕНИЕ И СОЦИАЛЬНЫЕ СЕТИ */
+.vhutein_logo_and_social_icons_footer {
+    height: 30px;
 
     display: flex;
     flex-direction: row;
@@ -10,32 +42,57 @@ footer {
     align-items: center;
 }
 
-/* АВТОР И УЧЕБНОЕ ЗАВЕДЕНИЕ */
-.author {
-    font-size: 10pt;
-    margin-left: 25px;
+.vhutein_logo_and_social_icons_footer > div {
+    margin: 0 25px;
 }
 
-.establishment {
-    font-size: 28pt;
+/* УЧЕБНОЕ ЗАВЕДЕНИЕ */
+.vhutein_logo_footer {
+    display: inline-block;
+
+    height: 30px;
+    aspect-ratio: 827/164;
+    
+    background-image: url(picture/vhutein_logo_gray.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-/* ПАЛОЧНИК */
-.cool_rotated_stickyman_on_establishment {
-    position: relative;
+.vhutein_logo_footer:hover {
+    background-image: url(picture/vhutein_logo_color.png);
 }
 
-.cool_rotated_stickyman {
-    position: absolute;
-    top: 20%;
-    left: 20%;
+/* СОЦИАЛЬНЫЕ СЕТИ */
+.social_icons_foooter {
+     display: inline-block;
 
-    width: 60%;
-
-    transform-origin: center;
-    transition: transform 1s;
+    height: 30px;
+    aspect-ratio: 1;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.cool_rotated_stickyman:hover {
-	transform: rotate(1turn);
+.telegram_icon_footer {
+    background-image: url(picture/telegram_icon.png);
+}
+
+.telegram_icon_footer:hover {
+    background-image: url(picture/telegram_icon_color.png);
+}
+
+.youtube_icon_footer {
+    background-image: url(picture/youtube_icon.png);
+}
+
+.youtube_icon_footer:hover {
+    background-image: url(picture/youtube_icon_color.png);
+}
+
+.vk_icon_footer {
+    background-image: url(picture/vk_icon.png);
+}
+
+.vk_icon_footer:hover {
+    background-image: url(picture/vk_icon_color.png);
 }
