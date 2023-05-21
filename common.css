@@ -55,3 +55,21 @@ body {
     margin: 0px;
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+.arrow_up {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.arrow_up_hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.arrow_up:hover {
+    transform: scale(1.1);
+}
+
