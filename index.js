@@ -1,28 +1,25 @@
 // СКРОЛЛ
-import {default_scroll, get_current_screen} from './scroll.js'
+import {Direction, default_scroll_function, get_current_screen, set_scroll_listeners} from './scroll.js'
 
-function scroll(event) {
+function scroll_function(direction) {
     const current_state = get_current_state()
     const isFiveScreen = get_current_screen() === 5
-    const isDefaultOnFiveScreen = (current_state === 1 && event.deltaY < 0) || (current_state === 4 && event.deltaY > 0)
+    const isDefaultOnFiveScreen = (current_state === 1 && direction === Direction.UP) || (current_state === 4 && direction === Direction.DOWN)
     const isDefault = !isFiveScreen || isDefaultOnFiveScreen
     if (isDefault) {
-        default_scroll(event)
+        default_scroll_function(direction)
     }
     else {
-        event.preventDefault()
-        if (event.deltaY > 0) {
-            // ВНИЗ
-            set_state(current_state + 1) 
-        }
-        else if (event.deltaY < 0) {
-            // ВВЕРХ
+        if (direction === Direction.UP) {
             set_state(current_state - 1)
+        }
+        else if (direction === Direction.DOWN) {
+            set_state(current_state + 1) 
         }
     }
 }
 
-window.addEventListener('wheel', scroll, { passive: false })
+set_scroll_listeners(scroll_function)
 
 function get_current_state() {
     return $('.world_map').hasClass('world_map_hide') ? ($('.africa_map').hasClass('africa_map_hide') ? ($('.madagascar_map').hasClass('madagascar_map_logo') ? 4 : 3) : 2) : 1

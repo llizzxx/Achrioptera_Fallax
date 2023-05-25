@@ -1,7 +1,7 @@
 // СКРОЛЛ
-import {default_scroll} from './scroll.js'
+import {default_scroll_function, set_scroll_listeners} from './scroll.js'
 
-window.addEventListener('wheel', default_scroll, { passive: false })
+set_scroll_listeners(default_scroll_function)
 
 // ВТОРОЙ ЭКРАН СТРОЕНИЕ
 $(document).ready(function() {
