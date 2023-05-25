@@ -49,6 +49,7 @@ html {
     user-select: none;
     color-scheme: dark;
     scroll-behavior: smooth;
+    scrollbar-width: thin;
 }
 
 ::-webkit-scrollbar {
