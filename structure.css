@@ -145,11 +145,6 @@
     font-size: 1em;
 }
 
-.structure_text_female > h1::after {
-    content: url('picture/Venus_Symbol.png');
-    vertical-align: -50%;
-}
-
 .structure_text_male {
     right: 50%;
 }
@@ -161,11 +156,6 @@
 .structure_text_male > ul li::marker {
     color: #ABE1E3;
     font-size: 1em;
-  }
-
-  .structure_text_male > h1::before {
-    content: url('picture/Mars_Symbol.png');
-    vertical-align: -50%;
 }
 
 .structure_text_hide {
@@ -378,4 +368,4 @@
 .protection_info > ul li::marker {
     color: #FF7E61;
     font-size: 1em;
-  }
+}
