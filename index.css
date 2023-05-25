@@ -162,9 +162,9 @@
     background-image: url(picture/MapWorld.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 80%;
-    width: 60%;
+    aspect-ratio: 16/9;
 
     display: flex;
     flex-direction: row;
@@ -178,19 +178,18 @@
 .world_map_hide {
     background-image: url(picture/Map_hide.png);
     height: 180%;
-    width: 260%;
-    margin-top: -30%;
+    margin-top: -35%;
 }
 
 .africa_map {
     background-image: url(picture/MapAfrica.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 33%;
-    width: 33%;
-    margin-top: 25%;
-    margin-left: 10%;
+    aspect-ratio: 16/9;
+    margin-top: 21.5%;
+    margin-left: 10.5%;
 
     display: flex;
     flex-direction: row;
@@ -204,20 +203,19 @@
 .africa_map_hide {
     background-image: url(picture/Map_hide.png);
     height: 200%;
-    width: 100%;
-    margin-top: -15%;
-    margin-left: -40%;
+    margin-top: -39%;
+    margin-left: -52%;
 }
 
 .madagascar_map {
     background-image: url(picture/MapMadagascar.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 23%;
-    width: 23%;
-    margin-top: 50%;
-    margin-left: 40%;
+    aspect-ratio: 16/9;
+    margin-top: 32%;
+    margin-left: 26%;
 
     transition: all 1s ease;
 }
