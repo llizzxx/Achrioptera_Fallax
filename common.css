@@ -2,6 +2,7 @@
 /* ЭКРАНЫ */
 .screen {
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .double_screen {
@@ -11,16 +12,19 @@
 /* ЦВЕТА ЭКРАНОВ */
 .dark_gray_screen {
     height: 100vh;
+    overflow-x: hidden;
     background-color: #0E0E0E;
 }
 
 .not_so_dark_gray_screen {
     height: 100vh;
+    overflow-x: hidden;
     background-color: #262626;
 }
 
 .gray_screen {
     height: 100vh;
+    overflow-x: hidden;
     background-color: #8a8a8a;
 }
 
@@ -31,16 +35,19 @@
 
 .light_gray_screen {
     height: 100vh;
+    overflow-x: hidden;
     background-color: #d9d9d9;
 }
 
 .light_blue_screen {
     height: 100vh;
+    overflow-x: hidden;
     background-color: #ABE1E3;
 }
 
 .white_screen {
     height: 100vh;
+    overflow-x: hidden;
     background-color: #ffffff;
 }
 

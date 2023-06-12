@@ -16,9 +16,8 @@
 .first_screen_text {
     font-size: 60pt;
     color: #00DDF6;
-    position: relative;
-    bottom: 50px;
-    right: 250px;
+    margin-right: 26%;
+    margin-bottom: 5%;
 }
 
 /* ВТОРОЙ ЭКРАН */
@@ -81,7 +80,7 @@
     bottom: 0;
     width: 30%;
     height: auto;
-    margin-right: 350px;
+    margin-right: 18.5%;
     margin-left: auto;
 }
 
